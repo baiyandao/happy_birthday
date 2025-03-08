@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>妈妈生日快乐</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="birthday-title">妈妈，生日快乐！</h1>
+        <p id="birthday-message">愿您每天都充满快乐和幸福，健康长寿！</p>
+        <button id="surprise-button">点击惊喜</button>
+        <div id="surprise-message" class="hidden">
+            <p>🎉🎂 妈妈，您是世界上最好的妈妈！我爱您！🎂🎉</p>
+            <div id="confetti"></div>
+        </div>
+    </div>
+
+    <!-- 背景音乐 -->
+    <audio id="birthday-music" loop>
+        <source src="库库小队 - Happy Birthday To You.flac" type="audio/mpeg">
+        <source src="库库小队 - Happy Birthday To You.ogg" type="audio/ogg">
+        您的浏览器不支持音频播放。
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
